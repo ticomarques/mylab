@@ -1,0 +1,99 @@
+
+<html>
+
+<head>
+
+<title>CSS Navigation Toggle</title>
+<!-- Mobile viewport optimized -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link media="all" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&amp;subset=latin,latin-ext" rel="stylesheet">
+
+
+<style type="text/css">
+
+/* Start */
+a{
+	color: #21759B;
+}
+a:hover{
+	color: #0F3647;
+}
+body{
+	font-family: 'Open Sans','Trebuchet MS', sans-serif;
+	color: #444;
+	background: #E6E6E6;
+}
+
+#container{
+	max-width: 600px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+
+
+/* Esconde Menu */
+/* Fecha o submenu */
+#submenu{
+	display: none;
+}
+
+/* Esconde o botão fechar menu */
+#menu-toggle a.close-menu{
+	display: none;
+}
+
+
+
+/* Exibe o menu */
+/* 
+Quando o link open é clicado, ele faz 2 ações, a primeira ele exibe o submenu e no segundo momento o a.open-menu joga a ancora na URL que dá display none no botão abrir, aqui 2 ações são feitas: abrir o submenu e sumir com o botão abrir. 
+*/
+#menu:target #submenu{
+	display: block;
+}
+#menu:target #menu-toggle a.open-menu{
+	display: none;
+}
+
+/* 
+Quando o botão fechar é clicado, ele some com ele no css, e o href dele é apenas #, e com apenas tralha o Abrir volta a aparecer, porque para o abrir sumir ele precisa de #menu que é disparado quando ele é clicado. 
+*/
+#menu:target #menu-toggle a.close-menu{
+	display: block;
+}
+
+</style>
+
+</head>
+
+<body>
+	<div id="container">
+		<nav role="navigation" class="menu" id="menu">
+
+			<div class="menu-container">
+
+				<div id="menu-toggle">
+					<a class="open-menu" href="#menu">Abre</a>
+					<a class="close-menu" href="#">Fecha</a>
+				</div>
+
+				<div class="wrap">
+					<ul class="menu-items" id="submenu">
+						<li class="menu-item"><a href="#">Menu 1</a></li>
+						<li class="menu-item"><a href="#">Menu 2</a></li>
+						<li class="menu-item"><a href="#">Menu 3</a></li>
+						<li class="menu-item"><a href="#">Menu 4</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</nav>	
+
+
+
+	</div>
+</body>
+
+</html>
