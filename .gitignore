@@ -1,2 +1,5 @@
 #tirando os modulos do projeto webservice-node-mongodb
 webservice-node-mongodb/node_modules
+
+#retirando os modulos dos outros projetos também
+*/node_modules
