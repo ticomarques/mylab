@@ -5,6 +5,8 @@ Laboratorio com diversos testes:
 # Apresentação Pessoal em RevealJs
 Minha apresentação pessoal utilizando o revealJS, muito interessante e rápido de fazer apresentações de Slides, utilizando HTML5, CSS3 e JS.
 
+# AngularJS puxando posts do Wordpress
+Eu fiz uma brincadeira, coloquei o wp para exportar os posts como um webservice, e coloquei o angular para capturar na minha app, e depois listando os posts via Webservice.
 
 # Gulp-base
 Base do Gulp configurada para aplicar em cada projeto.
@@ -20,7 +22,6 @@ Brincando com a API de produtos da Loja Tray, eu fiz rapidamente uma página de 
 
 #Webservice em Node utilizando banco MongoDB
 Uma brincadeira testando a metodologia Rest, fazendo uma APP RESTFull usando node e MongoDB, bem divertido!
-
 
 # odontograma
 Odontograma para marcação do estado bocal do paciente, todo em XHTML, CSS, JS e SVG.
