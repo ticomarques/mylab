@@ -40,12 +40,14 @@
 
 
 	<script type="text/javascript">  
-		$.getJSON("http://www.outletclube.com/web_api/products/9751/", function(data) {
+		$.getJSON("http://www.outletclube.com/web_api/products/2/", function(data) {
 
 			console.log(data);
+			console.log(data.Product.price);
 
-			var ImgDefault = "<img src='" + data.Product.ProductImage[1].http + "' class='principal'> ";
 
+			var ImgDefault = "<img src='" + data.Product.ProductImage[0].http + "' class='principal'> ";
+			
 		    var output="<ul>";
             for (var i in data.Product.ProductImage) 
             {
@@ -62,6 +64,7 @@
             $('.retail-price').html(data.Product.promotional_price);
             $('.parcelamento').html(data.Product.payment_option);
             $('.descricao').html(data.Product.description_small);
+            
 		});
     </script>
 
