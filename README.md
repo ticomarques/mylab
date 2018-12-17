@@ -9,21 +9,15 @@ Minha apresentação pessoal utilizando o revealJS, muito interessante e rápido
 Eu fiz uma brincadeira, coloquei o wp para exportar os posts como um webservice, e coloquei o angular para capturar na minha app, e depois listando os posts via Webservice.
 
 # Gulp-base
-Base do Gulp configurada para aplicar em cada projeto.
-
-# Mobile-First
-Teste que eu fiz adotando a metodologia, ainda não implementado o uso do progressive enhancement.
-
-# Menu-collpase-sem-js
-Fazendo um menu toggle, muito utilizado em interfaces responsiva sem o uso de Javascript, apenas com CSS.
+Boilerplate do Gulp com: gulp-concat, gulp-htmlmin, gulp-imagemin, gulp-jshint, gulp-live-server, gulp-sass, gulp-uglify, js-hint e js-shint stylesh.
 
 # Jquery Ajax API LojaTray
 Brincando com a API de produtos da Loja Tray, eu fiz rapidamente uma página de categoria, e uma página de produtos.
 
-#Webservice em Node utilizando banco MongoDB
-Uma brincadeira testando a metodologia Rest, fazendo uma APP RESTFull usando node e MongoDB, bem divertido!
+# Webservice em Node utilizando banco MongoDB
+Criando uma API usando nodeJS, mongoose e MongoDB, com métodos GET, POST, PUT e DELETE.
 
-# odontograma
+# Odontograma
 Odontograma para marcação do estado bocal do paciente, todo em XHTML, CSS, JS e SVG.
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.txt)
