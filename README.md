@@ -5,9 +5,6 @@ Laboratorio com diversos testes:
 # Apresentação Pessoal em RevealJs
 Minha apresentação pessoal utilizando o revealJS, muito interessante e rápido de fazer apresentações de Slides, utilizando HTML5, CSS3 e JS.
 
-# AngularJS puxando posts do Wordpress
-Eu fiz uma brincadeira, coloquei o wp para exportar os posts como um webservice, e coloquei o angular para capturar na minha app, e depois listando os posts via Webservice.
-
 # Gulp-base
 Boilerplate do Gulp com: gulp-concat, gulp-htmlmin, gulp-imagemin, gulp-jshint, gulp-live-server, gulp-sass, gulp-uglify, js-hint e js-shint stylesh.
 
